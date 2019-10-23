@@ -1,0 +1,36 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer{
+    position: relative;
+    background-color: beige;
+    border-radius: 2px;
+    box-shadow: 1px 0px 0px 1px #000000;
+    height: 50px !important;
+}
+footer p{
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: -2px;
+}
+img{
+    border:1px solid #000000;
+}
+img.profileImg{
+    text-align: center;
+
+}
+.thumbnail img{
+    height: 200px;
+}
+p a.btn-link{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: color .3s ease;
+}
+p a.btn-link:hover{
+    text-decoration: none;
+    color: #000;
+}
